@@ -1,9 +1,13 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css",
         "*.blade.php": "blade",
         "*.tpl": "html",
         "random": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
