@@ -17,7 +17,8 @@ int main()
     getline(cin, universitas);
 
     // output
-    cout << "nama saya: " << nama << endl;
+    cout << endl
+         << "nama saya: " << nama << endl;
     cout << "Jurusan: " << jurusan << endl;
     cout << "Universitas: " << universitas << endl;
 

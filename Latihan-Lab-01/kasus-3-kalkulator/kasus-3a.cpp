@@ -19,8 +19,8 @@ int main()
 
     // output
     cout << "Hasil operasi:" << endl;
-    cout << a << " > " << b << " = " << kecil << endl;
-    cout << a << " < " << b << " = " << besar << endl;
+    cout << a << " < " << b << " = " << kecil << endl;
+    cout << a << " > " << b << " = " << besar << endl;
     cout << a << " = " << b << " = " << sama << endl;
     cout << a << " != " << b << " = " << beda << endl;
 

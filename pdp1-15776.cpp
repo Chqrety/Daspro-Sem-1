@@ -5,18 +5,24 @@ using namespace std;
 int main()
 {
      // kasus 1
+     cout << "================ Kasus 1 ================" << endl;
      cout << "Nama Saya Husnul Fikri Averus\n";
      cout << "Jurusan: Teknik Informatika\n";
-     cout << "Universitas: Universitas Dian Nuswantoro\n\n";
+     cout << "Universitas: Universitas Dian Nuswantoro\n";
+     cout << "================ ======= ================" << endl
+          << endl;
 
      // kasus 2
+     cout << "===== Kasus 2 =====" << endl;
      cout << "nama saya Mawar" << endl;
      cout << "Saya dari Semarang" << endl;
-     cout << "Kuliah di Udinus" << endl
+     cout << "Kuliah di Udinus" << endl;
+     cout << "===== ======= =====" << endl
           << endl;
 
      // kasus 3
      string nama, jurusan, universitas;
+     cout << "===================== Kasus 3 =====================" << endl;
 
      cout << "Masukkan nama = ";
      getline(cin, nama);
@@ -30,12 +36,15 @@ int main()
      // output
      cout << "nama saya: " << nama << endl;
      cout << "Jurusan: " << jurusan << endl;
-     cout << "Universitas: " << universitas << endl
+     cout << "Universitas: " << universitas << endl;
+
+     cout << "===================== ======= =====================" << endl
           << endl;
 
      // kasus 3 kalkulator
      float a3, b3;
      float tambah, kurang, kali, bagi;
+     cout << "=== Kasus 3 Kalkulator ===" << endl;
 
      cout << "Masukkan bilangan A: ";
      cin >> a3;
@@ -52,12 +61,15 @@ int main()
      cout << a3 << " + " << b3 << " = " << tambah << endl;
      cout << a3 << " - " << b3 << " = " << kurang << endl;
      cout << a3 << " * " << b3 << " = " << kali << endl;
-     cout << a3 << " / " << b3 << " = " << bagi << endl
+     cout << a3 << " / " << b3 << " = " << bagi << endl;
+
+     cout << "=== ================== ===" << endl
           << endl;
 
      // kasus 3a
      float a3a, b3a;
      float kecil, besar, sama, beda;
+     cout << "======= Kasus 3a =======" << endl;
 
      cout << "Masukkan bilangan A: ";
      cin >> a3a;
@@ -74,13 +86,16 @@ int main()
      cout << a3a << " < " << b3a << " = " << kecil << endl;
      cout << a3a << " > " << b3a << " = " << besar << endl;
      cout << a3a << " = " << b3a << " = " << sama << endl;
-     cout << a3a << " != " << b3a << " = " << beda << endl
+     cout << a3a << " != " << b3a << " = " << beda << endl;
+
+     cout << "======= ======= =======" << endl
           << endl;
 
      // kasus pecah ribuan
      int n, ribuan, ratusan, puluhan, satuan;
      int ribu, ratus, puluh;
      int modRibuan, modRatusan, modPuluhan;
+     cout << "================ Kasus Pecah Ribuan ================" << endl;
 
      cout << "Masukkan angka ribuan : ";
      cin >> n;
@@ -99,6 +114,9 @@ int main()
      cout << "hasil pecahan ribuan dari (" << n << ")" << endl;
      cout << n << " = " << ribuan << " ribuan, " << ratusan << " ratusan, " << puluhan << " puluhan, " << satuan << " satuan." << endl;
      cout << n << " = " << ribu << " + " << ratus << " + " << puluh << " + " << satuan << endl;
+
+     cout << "================ ================== ================" << endl
+          << endl;
 
      return 0;
 }
