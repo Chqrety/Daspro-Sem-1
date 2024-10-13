@@ -15,7 +15,7 @@ int main()
      cin >> a;
      y1 = (a * a * a) + 7;
      cout << "Hasil dari y = a^3 + 7 = " << y1 << endl;
-     cout << "Hasil dari y = " << a << "^" << a << " + 7 = " << y1 << endl;
+     cout << "Hasil dari y = " << a << "^" << 3 << " + 7 = " << y1 << endl;
 
      cout << "========== PDP 2 Kasus 3 Nomor 2 ==========" << endl
           << endl;
