@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int n, ribuan, ratusan, puluhan, satuan;
     int ribu, ratus, puluh;
     int modRibuan, modRatusan, modPuluhan;
@@ -23,7 +22,8 @@ int main()
     puluh = modRatusan - satuan;
 
     cout << "hasil pecahan ribuan dari (" << n << ")" << endl;
-    cout << n << " = " << ribuan << " ribuan, " << ratusan << " ratusan, " << puluhan << " puluhan, " << satuan << " satuan." << endl;
+    cout << n << " = " << ribuan << " ribuan, " << ratusan << " ratusan, " << puluhan << " puluhan, " << satuan
+         << " satuan." << endl;
     cout << n << " = " << ribu << " + " << ratus << " + " << puluh << " + " << satuan << endl;
 
     return 0;

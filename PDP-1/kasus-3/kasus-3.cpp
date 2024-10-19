@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     string nama, jurusan, universitas;
 
     cout << "Masukkan nama = ";
@@ -17,8 +16,7 @@ int main()
     getline(cin, universitas);
 
     // output
-    cout << endl
-         << "nama saya: " << nama << endl;
+    cout << endl << "nama saya: " << nama << endl;
     cout << "Jurusan: " << jurusan << endl;
     cout << "Universitas: " << universitas << endl;
 

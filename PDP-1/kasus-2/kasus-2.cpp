@@ -11,8 +11,7 @@ cout << “Kuliah di Udinus” << endl;
 
 using namespace std;
 
-int main()
-{
+int main() {
     cout << "nama saya Mawar" << endl;
     cout << "Saya dari Semarang" << endl;
     cout << "Kuliah di Udinus" << endl;
