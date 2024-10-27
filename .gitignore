@@ -1,3 +1,5 @@
 # /.clang-format
-# *.exe
+*.exe
 # /PDP-5/main.cpp
+/PDP-6/main.cpp
+/PDP-6/PDP6_15776.cpp
