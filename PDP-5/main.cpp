@@ -68,9 +68,7 @@ int main() {
         biaya = 0;
     }
 
-    cout << "Tipe Kendaraan " << tipe_kendaraan << endl
-         << "Dengan durasi parkir selama " << jam << " jam" << endl
-         << "Dikenakan tarif sebesar Rp." << biaya;
+    cout << "Tipe Kendaraan " << tipe_kendaraan << endl << "Dengan durasi parkir selama " << jam << " jam" << endl << "Dikenakan tarif sebesar Rp." << biaya;
 
     cout << endl << "====================================================================" << endl << endl;
 
