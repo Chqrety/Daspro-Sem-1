@@ -4,19 +4,19 @@ using namespace std;
 
 int main() {
 
-    int a, N;
+    int a, b;
 
-    cout << "Input N: ";
-    cin >> N;
     cout << "Input a: ";
     cin >> a;
+    cout << "Input b: ";
+    cin >> b;
 
-    if (a > N) {
-        cout << "Nilai a harus lebih kecil atau sama dengan N." << endl;
+    if (b < a) {
+        cout << "Nilai b harus lebih besar atau sama dengan a." << endl;
         return 1;
     }
 
-    for (int i = a; i <= N; i++) {
+    for (int i = b; i >= a; i--) {
         cout << i << " ";
     }
     cout << endl;
