@@ -126,11 +126,11 @@ bool isOrigin(titik t) {
 }
 
 bool isOnSbX(titik t) {
-    return t.x == 0;
+    return t.y == 0;
 }
 
 bool isOnSbY(titik t) {
-    return t.y == 0;
+    return t.x == 0;
 }
 
 int kuadran(titik t) {
